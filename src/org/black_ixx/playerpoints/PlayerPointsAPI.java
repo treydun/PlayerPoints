@@ -28,7 +28,7 @@ public class PlayerPointsAPI {
      * 
      * @param playerId
      *            UUID of player
-     * @param Amount
+     * @param amount
      *            of points to give
      * @return True if we successfully adjusted points, else false
      */
@@ -63,7 +63,7 @@ public class PlayerPointsAPI {
      * 
      * @param playerId
      *            UUID of player
-     * @param Amount
+     * @param amount
      *            of points to give
      * @return True if we successfully adjusted points, else false
      */
@@ -142,7 +142,7 @@ public class PlayerPointsAPI {
      * 
      * @param playerId
      *            UUID of player
-     * @param Amount
+     * @param amount
      *            of points that it should be set to
      * @return True if successful
      */
@@ -173,7 +173,7 @@ public class PlayerPointsAPI {
     /**
      * Reset a player's points by removing their entry from the config.
      * 
-     * @param Name
+     * @param playerId
      *            of player
      * @return True if successful
      */
